@@ -2,76 +2,60 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\ADMIN\.android\build-cache\47adda33c3cbf1ac09757a355d39b2c657515dd8\output\jars\classes.jar"
+        jar="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
         jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f62e763609f65e47dc6c498760a4accf02776788">
-        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\pre-dexed\debug\classes_b8fc2061d66e6907e49a366a0e8041cf60dfb11f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ADMIN\.android\build-cache\b34000485fdbc0f73d933a950060320048605995\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
-        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\pre-dexed\debug\classes_7984996cfb865166270de1d1973091c95f22635e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ADMIN\.android\build-cache\803c29cd9e91fba6e22fce03e053c2f3812c11c6\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="787871951412550519b0222aba3c9df4cea49875">
-        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\pre-dexed\debug\classes_e9d9e93db07c3d735f1b6f09f5e95aa8d8cebd98.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ADMIN\.android\build-cache\4856c8ba16f08101ff0c2153af6bebd18f53bc85\output\jars\libs\internal_impl-24.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
-        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_928feab64a1f81765311b5c60001498397ce015d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ADMIN\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
-        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\pre-dexed\debug\support-annotations-24.1.1_dc69fa5e729f3189f67bdfd4f140b1f5b9723e21.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ADMIN\.android\build-cache\4b7fdf1d65feca5f9ea8b7d50bf2b333b53a12d4\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
-        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\pre-dexed\debug\classes_4f7b303b1e260d76cda75160b297da6eff9082b8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ADMIN\.android\build-cache\5f2855863c4e6b9e57ee87f1182809ac2b030d76\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
-        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\pre-dexed\debug\classes_08f7aa97b1b31d81b20a0799021871c8f1a6ecfd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ADMIN\.android\build-cache\4856c8ba16f08101ff0c2153af6bebd18f53bc85\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
+        revision="23.0.3"
         sha1="6d7d803871e3203465f71a163e7af104f807b446">
-        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\pre-dexed\debug\classes_1547b758e39189542dfe80a78a266af571aa6400.jar" />
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.1.1_2aee415eb535812c9e6c584bd621c1a36cd1e3c9.jar" />
+    </item>
+    <item
+        jar="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.1.1_a7c686c6a5b8248a3b18c2489c47f577778609fd.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\pre-dexed\debug\support-annotations-24.1.1_21b2249793cbee0c345f5f843fa85cb5175c0837.jar" />
+    </item>
+    <item
+        jar="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.1.1_3cd91187d386c2d75dfc223459ab584d64786678.jar" />
+    </item>
+    <item
+        jar="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.1.1_47ba272340d3fb8d2660a82adcde8af94553e708.jar" />
+    </item>
+    <item
+        jar="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_9367ad029c6ab074857a3824ef022e0753ddc178.jar" />
+    </item>
+    <item
+        jar="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.1.1_cd7099aa282d76b0261419c982b4f0feea7e7091.jar" />
+    </item>
+    <item
+        jar="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.1.1_7a6632f826f2b1b0efa6dfec6d36f8fd4df55f00.jar" />
     </item>
 
 </items>
