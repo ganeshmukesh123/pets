@@ -7,6 +7,8 @@ import android.content.UriMatcher;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
+import android.util.Log;
+import android.widget.Toast;
 
 /**
  * {@link ContentProvider} for Pets app.
@@ -73,8 +75,31 @@ public class PetProvider extends ContentProvider {
      */
     @Override
     public Uri insert(Uri uri, ContentValues contentValues) {
-        return null;
+
+        int match = sUriMatcher.match(uri);
+
+        switch (match){
+            case PETS:
+                return insertPets(uri,contentValues);
+            default:
+                throw new IllegalArgumentException("Insertion is not supported for " + uri);
+        }
+
     }
+
+    private Uri insertPets(Uri uri ,ContentValues contentValues){
+        SQLiteDatabase db = mDbHelper.getWritableDatabase();
+
+        long id = db.insert(PetContract.PetEntry.TABLE_NAME,null,contentValues);
+
+        if (id == -1) {
+            Log.e(LOG_TAG, "Failed to insert row for " + uri);
+            return null;
+        }
+
+        return ContentUris.withAppendedId(uri,id);
+    }
+
 
     /**
      * Updates the data at the given selection and selection arguments, with the new ContentValues.
