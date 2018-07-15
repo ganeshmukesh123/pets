@@ -36,6 +36,8 @@ public class PetDbHelper extends SQLiteOpenHelper {
      */
     private static final int DATABASE_VERSION = 1;
 
+
+
     /**
      * Constructs a new instance of {@link PetDbHelper}.
      *
