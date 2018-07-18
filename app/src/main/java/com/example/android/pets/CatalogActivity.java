@@ -88,6 +88,10 @@ public class CatalogActivity extends AppCompatActivity {
 
         // Attach the adapter to the ListView.
         petListView.setAdapter(adapter);
+
+        // Find and set empty view on the ListView, so that it only shows when the list has 0 items.
+        View emptyView = findViewById(R.id.empty_view);
+        petListView.setEmptyView(emptyView);
     }
 
     /**
