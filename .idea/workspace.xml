@@ -16,10 +16,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bd45ee12-1cef-4dfc-8899-724a99ff7bea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/pets/CatalogActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/pets/CatalogActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/pets/EditorActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/pets/EditorActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="ud845-Pets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,13 +54,10 @@
       <file leaf-file-name="CatalogActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/pets/CatalogActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+            <state relative-caret-position="88">
+              <caret line="16" column="15" selection-start-line="16" selection-start-column="0" selection-end-line="32" selection-end-column="31" />
               <folding>
                 <element signature="e#0#8127#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#2978#3586#0" expanded="true" />
-                <element signature="e#3585#3586#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,44 +65,46 @@
       </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="660">
               <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PetProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/pets/data/PetProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="4554">
               <caret line="215" column="67" selection-start-line="215" selection-start-column="67" selection-end-line="215" selection-end-column="67" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_catalog.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_catalog.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1452">
               <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="550">
               <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
               <folding />
             </state>
@@ -129,9 +127,9 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/pets/EditorActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="367">
-              <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+              <caret line="263" column="47" selection-start-line="263" selection-start-column="35" selection-end-line="263" selection-end-column="47" />
               <folding>
-                <element signature="e#2393#2432#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,14 +137,14 @@
       </file>
       <file leaf-file-name="menu_catalog.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_catalog.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
               <caret line="21" column="31" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="31" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
@@ -1928,9 +1926,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_catalog.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/pets/data/PetProvider.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/pets/CatalogActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/pets/EditorActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -1965,8 +1963,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1975,80 +1971,18 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ud845-Pets-starting-point" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ud845-Pets-starting-point" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ud845-Pets-starting-point" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pets" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ud845-Pets-starting-point" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane">
         <subPane />
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="device.picker.selection" value="2ae3caa1" />
+    <property name="device.picker.selection" value="52007a7bfea5b497" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/Ganesh/Android/app/ud845-Pets-starting-point/app/src/main/res/menu/menu_catalog.xml&#10;Pet&#9;FILE&#9;file://F:/Ganesh/Android/app/ud845-Pets-starting-point/app/src/main/java/com/example/android/pets/data/PetProvider.java" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
@@ -2407,12 +2341,19 @@
       <option name="project" value="LOCAL" />
       <updated>1532154139082</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding click listener on ListView">
+      <created>1532197397101</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1532197397101</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="870" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2421,13 +2362,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63946587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2003891" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11997406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2479,7 +2420,8 @@
     <MESSAGE value="implementing cursorLoader" />
     <MESSAGE value="implementing LoaderManager" />
     <MESSAGE value="CursorLoader loading automatically" />
-    <option name="LAST_COMMIT_MESSAGE" value="CursorLoader loading automatically" />
+    <MESSAGE value="adding click listener on ListView" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding click listener on ListView" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2519,7 +2461,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2393#2432#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2541,9 +2483,6 @@
           <caret line="101" column="46" selection-start-line="101" selection-start-column="46" selection-end-line="101" selection-end-column="46" />
           <folding>
             <element signature="e#0#8127#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#2978#3586#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2571,7 +2510,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2597,7 +2538,7 @@
         <state relative-caret-position="176">
           <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
-            <element signature="e#2393#2432#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2608,9 +2549,6 @@
           <caret line="101" column="46" selection-start-line="101" selection-start-column="46" selection-end-line="101" selection-end-column="46" />
           <folding>
             <element signature="e#0#8127#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#2978#3586#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2638,7 +2576,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2664,7 +2604,7 @@
         <state relative-caret-position="176">
           <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
-            <element signature="e#2393#2432#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2675,9 +2615,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#8127#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#2978#3586#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2705,9 +2642,6 @@
           <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
             <element signature="e#0#8127#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#2978#3586#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2725,9 +2659,6 @@
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
             <element signature="e#0#8127#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#2978#3586#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2745,9 +2676,6 @@
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
             <element signature="e#0#8127#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#2978#3586#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2765,9 +2693,6 @@
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
             <element signature="e#0#8127#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#2978#3586#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2907,27 +2832,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="660">
           <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/pets/data/PetProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="4554">
           <caret line="215" column="67" selection-start-line="215" selection-start-column="67" selection-end-line="215" selection-end-column="67" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="550">
           <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding />
         </state>
@@ -2935,13 +2862,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/pets/CatalogActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+        <state relative-caret-position="88">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="0" selection-end-line="32" selection-end-column="31" />
           <folding>
             <element signature="e#0#8127#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#2978#3586#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2949,9 +2873,9 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/pets/EditorActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
-          <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+          <caret line="263" column="47" selection-start-line="263" selection-start-column="35" selection-end-line="263" selection-end-column="47" />
           <folding>
-            <element signature="e#2393#2432#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

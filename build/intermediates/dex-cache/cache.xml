@@ -1,3 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="true"
+        jar="C:\Users\USER\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_21b2249793cbee0c345f5f843fa85cb5175c0837\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_54ee310bdef47dc6578f66b26cbf52425d90d884\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USER\.android\build-cache\f4bfbaf416fe0395017666281470450c81157d29\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5776084da503150bf335a243b5f09802b64437b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USER\.android\build-cache\0c77fbc626b9078baca36a2525f7e7c260c5f9e0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c368aa4f13dfe552a583e51b627ba39957a5bd9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USER\.android\build-cache\0b7872da1ff3fc7b6885eab9bda3ca5100e01cb7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cb0d360037ddb3adbb34079a66fda913830018ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USER\.android\build-cache\b3fa4ed801fe08a7d4739f27ebe7d642adab4538\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e977b2788c33e9f870a9e4d967008260ff8e50c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USER\.android\build-cache\0a18dfaacbac03785e0d18674878944ad4e3251c\output\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_ad126ec789c36ff32f66aefb0d6deb140cfec6e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USER\.android\build-cache\0a18dfaacbac03785e0d18674878944ad4e3251c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b16ae459fc8da06d7b62fc4008b049711ddee4b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a715dff450bd8cd2f3ccb2d7f2667eda806bbaa">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e5f94bcd15314010fcef2f6ec416bb3fddee37ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USER\.android\build-cache\bf61752ee4776376c007cc33092963f8d43f233c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="F:\Ganesh\Android\app\ud845-Pets-starting-point\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4f99c40f6903f6295e67f6677ee1219259910f98\classes.dex" />
+    </item>
+
+</items>
