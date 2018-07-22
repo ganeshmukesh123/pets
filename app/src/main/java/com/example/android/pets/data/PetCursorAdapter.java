@@ -64,6 +64,11 @@ public class PetCursorAdapter extends CursorAdapter {
         String breedString = cursor.getString(cursor.getColumnIndexOrThrow("breed"));
 
         name.setText(nameString);
-        summary.setText(breedString);
+        if (breedString != null && !breedString.isEmpty()){
+            summary.setText(breedString);
+        }
+        else {
+            summary.setText("Unknown breed");
+        }
     }
 }
