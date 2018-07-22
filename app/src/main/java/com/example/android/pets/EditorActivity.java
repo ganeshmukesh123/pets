@@ -182,6 +182,43 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
 //        }
     }
 
+    private void updatePet(){
+        // Read from input fields
+        // Use trim to eliminate leading or trailing white space
+        String nameString = mNameEditText.getText().toString().trim();
+        String breedString = mBreedEditText.getText().toString().trim();
+        String weightString = mWeightEditText.getText().toString().trim();
+        int weight = Integer.parseInt(weightString);
+
+        // Create database helper
+        //PetDbHelper mDbHelper = new PetDbHelper(this);
+
+        // Gets the database in write mode
+        //SQLiteDatabase db = mDbHelper.getWritableDatabase();
+
+        // Create a ContentValues object where column names are the keys,
+        // and pet attributes from the editor are the values.
+        ContentValues values = new ContentValues();
+        values.put(PetEntry.COLUMN_PET_NAME, nameString);
+        values.put(PetEntry.COLUMN_PET_BREED, breedString);
+        values.put(PetEntry.COLUMN_PET_GENDER, mGender);
+        values.put(PetEntry.COLUMN_PET_WEIGHT, weight);
+
+        // update a  pet into the provider, returning number of rows updated.
+        int  updateRow = getContentResolver().update(mCurrentPetUri,values,null,null);
+
+        // Show a toast message depending on whether or not the update is successful
+        if (updateRow == 0) {
+            // If the updateRow is 0, then no row is updated.
+            Toast.makeText(this, getString(R.string.editor_update_pet_failed),
+                    Toast.LENGTH_SHORT).show();
+        } else {
+            // Otherwise, the update was successful and we can display a toast.
+            Toast.makeText(this, getString(R.string.editor_update_pet_successful),
+                    Toast.LENGTH_SHORT).show();
+        }
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu options from the res/menu/menu_editor.xml file.
@@ -196,8 +233,14 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         switch (item.getItemId()) {
             // Respond to a click on the "Save" menu option
             case R.id.action_save:
-                // Save pet to database
-                insertPet();
+                if(mCurrentPetUri == null) {
+                    // Save pet to database
+                    insertPet();
+                }
+                else{
+                    //update pet in database
+                    updatePet();
+                }
                 // Exit activity
                 finish();
                 return true;
