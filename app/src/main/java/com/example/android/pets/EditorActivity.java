@@ -136,7 +136,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
     /**
      * Get user input from editor and save new pet into database.
      */
-    private void insertPet() {
+    private void savePet() {
         // Read from input fields
         // Use trim to eliminate leading or trailing white space
         String nameString = mNameEditText.getText().toString().trim();
@@ -158,66 +158,44 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         values.put(PetEntry.COLUMN_PET_GENDER, mGender);
         values.put(PetEntry.COLUMN_PET_WEIGHT, weight);
 
-        // Insert a new pet into the provider, returning the content URI for the new pet.
-        Uri newUri = getContentResolver().insert(PetEntry.CONTENT_URI, values);
+        if(mCurrentPetUri == null) {
 
-        // Show a toast message depending on whether or not the insertion was successful
-        if (newUri == null) {
-            // If the new content URI is null, then there was an error with insertion.
-            Toast.makeText(this, getString(R.string.editor_insert_pet_failed),
-                    Toast.LENGTH_SHORT).show();
-        } else {
-            // Otherwise, the insertion was successful and we can display a toast.
-            Toast.makeText(this, getString(R.string.editor_insert_pet_successful),
-                    Toast.LENGTH_SHORT).show();
+            Log.i("position=","insert");
+
+            // Insert a new pet into the provider, returning the content URI for the new pet.
+            Uri newUri = getContentResolver().insert(PetEntry.CONTENT_URI, values);
+
+            // Show a toast message depending on whether or not the insertion was successful
+            if (newUri == null) {
+                // If the new content URI is null, then there was an error with insertion.
+                Toast.makeText(this, getString(R.string.editor_insert_pet_failed),
+                        Toast.LENGTH_SHORT).show();
+            } else {
+                // Otherwise, the insertion was successful and we can display a toast.
+                Toast.makeText(this, getString(R.string.editor_insert_pet_successful),
+                        Toast.LENGTH_SHORT).show();
+            }
+        }
+        else{
+
+            Log.i("position=","update");
+            // update a  pet into the provider, returning number of rows updated.
+            int  updateRow = getContentResolver().update(mCurrentPetUri,values,null,null);
+
+            // Show a toast message depending on whether or not the update is successful
+            if (updateRow == 0) {
+                // If the updateRow is 0, then no row is updated.
+                Toast.makeText(this, getString(R.string.editor_update_pet_failed),
+                        Toast.LENGTH_SHORT).show();
+            } else {
+                // Otherwise, the update was successful and we can display a toast.
+                Toast.makeText(this, getString(R.string.editor_update_pet_successful),
+                        Toast.LENGTH_SHORT).show();
+            }
         }
 
-        // Show a toast message depending on whether or not the insertion was successful
-//        if (newRowId == -1) {
-//            // If the row ID is -1, then there was an error with insertion.
-//            Toast.makeText(this, "Error with saving pet", Toast.LENGTH_SHORT).show();
-//        } else {
-//            // Otherwise, the insertion was successful and we can display a toast with the row ID.
-//            Toast.makeText(this, "Pet saved with row id: " + newRowId, Toast.LENGTH_SHORT).show();
-//        }
     }
 
-    private void updatePet(){
-        // Read from input fields
-        // Use trim to eliminate leading or trailing white space
-        String nameString = mNameEditText.getText().toString().trim();
-        String breedString = mBreedEditText.getText().toString().trim();
-        String weightString = mWeightEditText.getText().toString().trim();
-        int weight = Integer.parseInt(weightString);
-
-        // Create database helper
-        //PetDbHelper mDbHelper = new PetDbHelper(this);
-
-        // Gets the database in write mode
-        //SQLiteDatabase db = mDbHelper.getWritableDatabase();
-
-        // Create a ContentValues object where column names are the keys,
-        // and pet attributes from the editor are the values.
-        ContentValues values = new ContentValues();
-        values.put(PetEntry.COLUMN_PET_NAME, nameString);
-        values.put(PetEntry.COLUMN_PET_BREED, breedString);
-        values.put(PetEntry.COLUMN_PET_GENDER, mGender);
-        values.put(PetEntry.COLUMN_PET_WEIGHT, weight);
-
-        // update a  pet into the provider, returning number of rows updated.
-        int  updateRow = getContentResolver().update(mCurrentPetUri,values,null,null);
-
-        // Show a toast message depending on whether or not the update is successful
-        if (updateRow == 0) {
-            // If the updateRow is 0, then no row is updated.
-            Toast.makeText(this, getString(R.string.editor_update_pet_failed),
-                    Toast.LENGTH_SHORT).show();
-        } else {
-            // Otherwise, the update was successful and we can display a toast.
-            Toast.makeText(this, getString(R.string.editor_update_pet_successful),
-                    Toast.LENGTH_SHORT).show();
-        }
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -233,14 +211,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         switch (item.getItemId()) {
             // Respond to a click on the "Save" menu option
             case R.id.action_save:
-                if(mCurrentPetUri == null) {
-                    // Save pet to database
-                    insertPet();
-                }
-                else{
-                    //update pet in database
-                    updatePet();
-                }
+                savePet();
                 // Exit activity
                 finish();
                 return true;

@@ -17,7 +17,6 @@
     <list default="true" id="bd45ee12-1cef-4dfc-8899-724a99ff7bea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/pets/EditorActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/pets/EditorActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="ud845-Pets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,11 +122,14 @@
       <file leaf-file-name="EditorActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/pets/EditorActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="216" column="65" selection-start-line="216" selection-start-column="65" selection-end-line="216" selection-end-column="65" />
+            <state relative-caret-position="440">
+              <caret line="180" column="37" selection-start-line="180" selection-start-column="37" selection-end-line="180" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8806#8850#0" expanded="true" />
+                <element signature="e#6648#6692#0" expanded="false" />
+                <element signature="e#6891#6939#0" expanded="false" />
+                <element signature="e#7473#7517#0" expanded="true" />
+                <element signature="e#7713#7761#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1925,8 +1927,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/pets/data/PetProvider.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/pets/CatalogActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/pets/EditorActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/pets/EditorActivity.java" />
       </list>
     </option>
   </component>
@@ -2353,7 +2355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532243094016</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="able to update selected item from ListView">
+      <created>1532267480628</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1532267480628</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2427,7 +2436,8 @@
     <MESSAGE value="CursorLoader loading automatically" />
     <MESSAGE value="adding click listener on ListView" />
     <MESSAGE value="able to display select ListView item in editorActivity" />
-    <option name="LAST_COMMIT_MESSAGE" value="able to display select ListView item in editorActivity" />
+    <MESSAGE value="able to update selected item from ListView" />
+    <option name="LAST_COMMIT_MESSAGE" value="able to update selected item from ListView" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2468,7 +2478,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8806#8850#0" expanded="true" />
+            <element signature="e#6648#6692#0" expanded="false" />
+            <element signature="e#6891#6939#0" expanded="false" />
+            <element signature="e#7473#7517#0" expanded="true" />
+            <element signature="e#7713#7761#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2544,7 +2557,10 @@
           <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8806#8850#0" expanded="true" />
+            <element signature="e#6648#6692#0" expanded="false" />
+            <element signature="e#6891#6939#0" expanded="false" />
+            <element signature="e#7473#7517#0" expanded="true" />
+            <element signature="e#7713#7761#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2609,7 +2625,10 @@
           <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8806#8850#0" expanded="true" />
+            <element signature="e#6648#6692#0" expanded="false" />
+            <element signature="e#6891#6939#0" expanded="false" />
+            <element signature="e#7473#7517#0" expanded="true" />
+            <element signature="e#7713#7761#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2875,11 +2894,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/pets/EditorActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="216" column="65" selection-start-line="216" selection-start-column="65" selection-end-line="216" selection-end-column="65" />
+        <state relative-caret-position="440">
+          <caret line="180" column="37" selection-start-line="180" selection-start-column="37" selection-end-line="180" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8806#8850#0" expanded="true" />
+            <element signature="e#6648#6692#0" expanded="false" />
+            <element signature="e#6891#6939#0" expanded="false" />
+            <element signature="e#7473#7517#0" expanded="true" />
+            <element signature="e#7713#7761#0" expanded="true" />
           </folding>
         </state>
       </provider>
