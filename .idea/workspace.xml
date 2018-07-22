@@ -2408,7 +2408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532284631021</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="able to delete selected pet from editor activity">
+      <created>1532286321705</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1532286321705</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2486,7 +2493,8 @@
     <MESSAGE value="improving code" />
     <MESSAGE value="fix app crash problem when saving pet with all field are empty" />
     <MESSAGE value="able to warn user about unsaved data" />
-    <option name="LAST_COMMIT_MESSAGE" value="able to warn user about unsaved data" />
+    <MESSAGE value="able to delete selected pet from editor activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="able to delete selected pet from editor activity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
